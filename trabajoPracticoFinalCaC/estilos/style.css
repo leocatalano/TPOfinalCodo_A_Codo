@@ -1,0 +1,28 @@
+
+.contenedor{
+  display:flex;
+  justify-content:flex-start;
+}
+img {
+  width: 200px;
+  border: 5px solid rgb(247, 71, 7);
+}
+
+nav {
+  background-color: rgb(247, 71, 7);
+
+}
+video {
+  width: 500px;
+  border: 5px solid rgb(247, 71, 7);
+}
+h1 {
+  text-align: center;
+}
+.contenedor_1{
+  display:flex;
+  justify-content:center;
+}
+body {
+  background-color: rgb(252, 109, 57);
+}

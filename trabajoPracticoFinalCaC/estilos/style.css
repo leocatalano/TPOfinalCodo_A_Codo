@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .contenedor{
   display:flex;
   justify-content:flex-start;
@@ -25,4 +27,14 @@ h1 {
 }
 body {
   background-color: rgb(252, 109, 57);
+}
+
+p {
+font-family:'Montserrat';
+text-align: justify;
+margin: 10px;
+}
+form, label {
+  font-family:'Montserrat';
+  margin: 10px;
 }

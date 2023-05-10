@@ -1,40 +1,195 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.contenedor{
-  display:flex;
-  justify-content:flex-start;
-}
-img {
-  width: 200px;
-  border: 5px solid rgb(247, 71, 7);
-}
-
-nav {
-  background-color: rgb(247, 71, 7);
-
-}
-video {
-  width: 500px;
-  border: 5px solid rgb(247, 71, 7);
-}
-h1 {
-  text-align: center;
-}
-.contenedor_1{
-  display:flex;
-  justify-content:center;
-}
-body {
-  background-color: rgb(252, 109, 57);
-}
-
-p {
-font-family:'Montserrat';
-text-align: justify;
-margin: 10px;
-}
-form, label {
+@media screen and (max-width: 600px) {
+  .contenedor{
+    display:flex;
+    justify-content:flex-start;
+  }
+  img {
+    width: 100%;
+    height: auto;
+    border: 5px solid rgb(247, 71, 7);
+  }
+  
+  nav {
+    background-color: rgb(235, 126, 1);
+  
+  }
+  video {
+    width: 500px;
+    border: 5px solid rgb(247, 71, 7);
+  }
+  h1 {
+    text-align: center;
+  }
+  .contenedor_1{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+  }
+  body {
+    background-color: rgb(250, 135, 4);
+  }
+  
+  p {
   font-family:'Montserrat';
+  text-align: justify;
   margin: 10px;
+  }
+  form, label {
+    font-family:'Montserrat';
+    margin: 10px;
+  }
+  #carrusel{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+  }
+  
+  #uno:hover{
+    transform: scale(2, 2);
+    border: 7px solid rgb(253, 192, 143);
+  }
+  #dos:hover{
+    transform: scale(2, 2);
+    border: 7px solid rgb(253, 192, 143);
+    animation-name: carrusel;
+  }
+  #tres:hover{
+    transform: scale(2, 2);
+    border: 7px solid rgb(253, 192, 143);
+  }
+  #cuatro:hover{
+    transform: scale(2, 2);
+    border: 7px solid rgb(253, 192, 143);
+  }
+}
+
+  @media  screen and (min-width: 600px) and (max-width: 768px) {
+    .contenedor{
+      display:flex;
+      justify-content:flex-start;
+    }
+    img {
+      width: 200px;
+      border: 5px solid rgb(247, 71, 7);
+    }
+    
+    nav {
+      background-color: rgb(247, 71, 7);
+    
+    }
+    video {
+      width: 500px;
+      border: 5px solid rgb(247, 71, 7);
+    }
+    h1 {
+      text-align: center;
+    }
+    .contenedor_1{
+      display:flex;
+      justify-content:center;
+      flex-wrap: wrap;
+    }
+    body {
+      background-color: rgb(248, 103, 90);
+    }
+    
+    p {
+    font-family:'Montserrat';
+    text-align: justify;
+    margin: 10px;
+    }
+    form, label {
+      font-family:'Montserrat';
+      margin: 10px;
+    }
+    #carrusel{
+      display:flex;
+      justify-content:center;
+      flex-wrap: wrap;
+    }
+    
+    #uno:hover{
+      transform: scale(2, 2);
+      border: 7px solid rgb(253, 192, 143);
+    }
+    #dos:hover{
+      transform: scale(2, 2);
+      border: 7px solid rgb(253, 192, 143);
+      animation-name: carrusel;
+    }
+    #tres:hover{
+      transform: scale(2, 2);
+      border: 7px solid rgb(253, 192, 143);
+    }
+    #cuatro:hover{
+      transform: scale(2, 2);
+      border: 7px solid rgb(253, 192, 143);
+    }
+  }
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
+  .contenedor{
+    display:flex;
+    justify-content:flex-start;
+  }
+  img {
+    width: 200px;
+    border: 5px solid rgb(247, 71, 7);
+  }
+  
+  nav {
+    background-color: rgb(247, 71, 7);
+  
+  }
+  video {
+    width: 500px;
+    border: 5px solid rgb(247, 71, 7);
+  }
+  h1 {
+    text-align: center;
+  }
+  .contenedor_1{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+  }
+  body {
+    background-color: rgb(252, 109, 57);
+  }
+  
+  p {
+  font-family:'Montserrat';
+  text-align: justify;
+  margin: 10px;
+  }
+  form, label {
+    font-family:'Montserrat';
+    margin: 10px;
+  }
+  #carrusel{
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+  }
+  
+  #uno:hover{
+    transform: scale(2, 2);
+    border: 7px solid rgb(253, 192, 143);
+  }
+  #dos:hover{
+    transform: scale(2, 2);
+    border: 7px solid rgb(253, 192, 143);
+    animation-name: carrusel;
+  }
+  #tres:hover{
+    transform: scale(2, 2);
+    border: 7px solid rgb(253, 192, 143);
+  }
+  #cuatro:hover{
+    transform: scale(2, 2);
+    border: 7px solid rgb(253, 192, 143);
+  }
 }

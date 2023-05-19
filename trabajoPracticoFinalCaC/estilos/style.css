@@ -9,16 +9,16 @@
   img {
     width: 100%;
     height: auto;
-    border: 5px solid rgb(247, 71, 7);
+    border: 5px solid rgb(7, 159, 247);
   }
   
   nav {
-    background-color: rgb(235, 126, 1);
+    background-color: rgb(61, 238, 17);
   
   }
   video {
     width: 500px;
-    border: 5px solid rgb(247, 71, 7);
+    border: 5px solid rgb(228, 235, 228);
   }
   h1 {
     text-align: center;
@@ -29,7 +29,7 @@
     flex-wrap: wrap;
   }
   body {
-    background-color: rgb(250, 135, 4);
+    background-color: rgb(216, 230, 28);
   }
   
   p {

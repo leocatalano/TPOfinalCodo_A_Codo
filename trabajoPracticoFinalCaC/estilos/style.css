@@ -9,16 +9,16 @@
   img {
     width: 100%;
     height: auto;
-    border: 5px solid rgb(7, 159, 247);
+    border: 5px solid rgb(247, 71, 7);
   }
-  
+
   nav {
-    background-color: rgb(61, 238, 17);
-  
+    background-color: rgb(235, 126, 1);
   }
+ 
   video {
     width: 500px;
-    border: 5px solid rgb(228, 235, 228);
+    border: 5px solid rgb(247, 71, 7);
   }
   h1 {
     text-align: center;
@@ -29,7 +29,7 @@
     flex-wrap: wrap;
   }
   body {
-    background-color: rgb(216, 230, 28);
+    background-color: rgb(250, 135, 4);
   }
   
   p {
@@ -64,6 +64,11 @@
     transform: scale(2, 2);
     border: 7px solid rgb(253, 192, 143);
   }
+  .contacto{
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  
 }
 
   @media  screen and (min-width: 600px) and (max-width: 768px) {
@@ -128,9 +133,17 @@
       transform: scale(2, 2);
       border: 7px solid rgb(253, 192, 143);
     }
+    .contacto{
+      padding-top: 20px;
+      padding-left: 30px;
+    }
+    .iframe{
+      padding-left: 30px;
+    }
   }
 
-@media screen and (min-width: 768px) and (max-width: 1280px){
+
+@media screen and (min-width: 768px) and (max-width: 1200px){
   .contenedor{
     display:flex;
     justify-content:flex-start;
@@ -191,5 +204,21 @@
   #cuatro:hover{
     transform: scale(2, 2);
     border: 7px solid rgb(253, 192, 143);
+  }
+  .form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    padding-top: 20px;
+  }
+  .contacto{
+    grid-column: 1;
+    grid-row: 1;
+    margin-top: 10px;
+  }
+  .iframe {
+    grid-column: 2 ;
+    grid-row: 1;
   }
 }

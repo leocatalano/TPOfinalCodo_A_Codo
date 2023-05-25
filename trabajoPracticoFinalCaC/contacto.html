@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACTO</title>
+    <script src="https://kit.fontawesome.com/12b9454c70.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="shortcut icon" href="imagenes/vinylico-sinfondo.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
@@ -24,8 +25,9 @@
 
 <body>
     <nav>
-      <img src="imagenes/LOGO_Grande_Transparente.png" alt=""id="logo">
+     
         <ul>
+          <a href="index.html"><img src="imagenes/LOGO_Grande_Transparente.png" alt=""id="logo"></a>
             <li><a href="index.html">Nosotros</a></li>
             <li><a href="producto.html">Producto</a></li>
             <li><a href="clientes.html">Clientes</a></li>
@@ -43,12 +45,12 @@
           <form action="" method="" id="formularioo" name="formularioo" onsubmit="return validarFormulario ()">
              <div class="form">
              <div class="contacto">
-                <label for="firstname">Nombre: </label>
+              <i class="fa-solid fa-user"></i><label for="firstname">Nombre: </label>
                 <input size="30" type="text" id="firstname" name="firstname" placeholder="Ingrese su nombre aquí..."><br><br>
-                <label for="lastname">Apellido:</label> <input size="30" type="text" id="lastname"name="lastname" placeholder="Ingrese su apellido aquí..."><br><br>
-                <label for="telefono">Teléfono: </label> <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su teléfono aquí..."> <br><br>
-                <label for="mail">Mail: </label> <input type="email" id="mail" name="mail" placeholder="Ingrese su mail aquí..."><br><br> 
-                <label for="mensaje">Mensaje</label><br><br><textarea placeholder="Ingrese su mensaje aquí..." id="message-input" cols="50" rows="10"></textarea><br>
+                <i class="fa-solid fa-user"></i><label for="lastname">Apellido:</label> <input size="30" type="text" id="lastname"name="lastname" placeholder="Ingrese su apellido aquí..."><br><br>
+                <i class="fa-solid fa-phone"></i><label for="telefono">Teléfono: </label> <input type="tel" id="telefono" name="telefono" placeholder="Ingrese su teléfono aquí..."> <br><br>
+                <i class="fa-solid fa-envelope"></i><label for="mail">Mail: </label> <input type="email" id="mail" name="mail" placeholder="Ingrese su mail aquí..."><br><br> 
+                <i class="fa-solid fa-comment"></i><label for="mensaje">Mensaje</label><br><br><textarea placeholder="Ingrese su mensaje aquí..." id="message-input" cols="50" rows="10"></textarea><br>
                 <input type="submit" value="Enviar" class="btn" id="botonenviar">
                
               </div>
